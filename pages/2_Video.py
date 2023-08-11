@@ -6,6 +6,7 @@ from PIL import Image
 from utils.write_csv import write_csv
 from utils.read_lp import read_license_plate
 from component.page_meta import page_meta
+import os 
 
 page_meta(page_title='Video', page_icon='🎞️')
 model = YOLO('model/YOLOv8/best.pt')
